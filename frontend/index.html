@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <h1>Hotel Management</h1>
+    <button onclick="window.location.href='create.html'">
+      Create New Hotel
+    </button>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="hotel-table-body">
+        <!-- Hotels will be dynamically populated here -->
+      </tbody>
+    </table>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
